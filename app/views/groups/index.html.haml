@@ -1,0 +1,55 @@
+= render 'shared/side-bar'
+
+/ .chat
+/   .header
+/     .header-left
+/       .header-left__group
+/         sample group
+/       %ul.header-left__members
+/         Member：
+/         %li.member
+/           aメンバー
+/         %li.member
+/           bメンバー
+/         %li.member
+/           cメンバー
+/     .header-edit
+/       .header-edit__button
+/         Edit
+
+/   .main-content
+/     .message
+/       .message-upper
+/         .message-upper__user-name
+/           user
+/         .message-upper__time
+/           2018/08/21 12:00
+/       .message-lower
+/         .message-lower__text
+/           message
+/     .message
+/       .message-upper
+/         .message-upper__user-name
+/           user
+/         .message-upper__time
+/           2018/08/21 12:00
+/       .message-lower
+/         .message-lower__text
+/           message
+/     .message
+/       .message-upper
+/         .message-upper__user-name
+/           user
+/         .message-upper__time
+/           2018/08/21 12:00
+/       .message-lower
+/         .message-lower__text
+/           message
+/   .form
+/     %form
+/       %input.form__message{type: 'text', placeholder: 'type a message'}
+/       .form__mask
+/         %label.form__mask__image
+/           =fa_icon "image"
+/           %input.hidden{type: 'file'}
+/       %input.form__submit{type: 'submit',value: 'Send'}
