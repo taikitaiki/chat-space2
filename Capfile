@@ -6,10 +6,9 @@ require "capistrano/deploy"
 
 require 'capistrano/rbenv'
 require 'capistrano/bundler'
-# require 'capistrano/rails/assets'
+require 'capistrano/rails/assets'
 require 'capistrano/rails/migrations'
 require 'capistrano3/unicorn'
-
 # Load the SCM plugin appropriate to your project:
 #
 # require "capistrano/scm/hg"
@@ -18,10 +17,8 @@ require 'capistrano3/unicorn'
 # require "capistrano/scm/svn"
 # install_plugin Capistrano::SCM::Svn
 # or
-
 require "capistrano/scm/git"
 install_plugin Capistrano::SCM::Git
-#上記の２行コメントアウトする？
 
 # Include tasks from other gems included in your Gemfile
 #
