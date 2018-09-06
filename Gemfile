@@ -55,7 +55,6 @@ end
   gem 'carrierwave'
   gem 'mini_magick'
   gem 'pry-rails'
-  gem 'fog-aws'
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
