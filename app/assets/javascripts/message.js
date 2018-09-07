@@ -61,7 +61,7 @@ $(function(){
       dataType: 'json'
     })
     .done(function(json){
-      console.log(json);
+      // console.log(json);
       var insertHTML = '';
       json.forEach(function(message){
           // #新しいmsgがある場合の時のみbuilidHTMLで作成、それをinsertHTMLに代入
